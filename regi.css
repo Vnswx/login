@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+
+.op {
+    float: left;
+    width: 480px;
+    height: 665px;
+    position: relative;
+    background-image: url(asset/sw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.op input[type="text"] {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Prompt', sans-serif;
+    background-color: gainsboro;
+    border-radius: 5px;
+    left: 90px;
+    margin-bottom: 30px;
+    bottom: 400px;
+    border: none;
+}
+
+.op input[type="password"] {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Prompt', sans-serif;
+    background-color: gainsboro;
+    border-radius: 5px;
+    left: 90px;
+    margin-bottom: 30px;
+    bottom: 400px;
+    border: none;
+}
+
+.op label {
+    position: relative;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    left: 90px;
+    bottom: 400px;
+    color: black;
+}
+
+.op button {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    color: black;
+    background-color: grey;
+    border: none;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    left: 100px;
+    bottom: 400px;
+    margin-top: 20px;
+}
+
+.op button:hover {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+.op h2 {
+    position: relative;
+    left: 140px;
+    font-family: 'Prompt', sans-serif;
+    bottom: 450px;
+    font-size: 50px;
+}
+
+#ok {
+    position: relative;
+    font-size: 15px;
+    color: red;
+    font-family: 'Prompt', sans-serif;
+    left: 120px;
+    bottom: 390px;
+    font-size: 20px;
+}
+
+.ps {
+    position: relative;
+    font-size: 15px;
+    color: red;
+    left: 90px;
+    bottom: 430px;
+}
+
+#psa {
+    position: relative;
+    font-size: 15px;
+    color: red;
+    left: 90px;
+    bottom: 430px;
+}
+
+.pss {
+    position: relative;
+    font-size: 15px;
+    color: red;
+    left: 90px;
+    bottom: 430px;
+}
+
+.on{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+}
+
+.opo {
+    float: left;
+    width: 480px;
+    height: 665px;
+    position: relative;
+    background-image: url(asset/sw.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.opo input[type="text"] {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Prompt', sans-serif;
+    background-color: gainsboro;
+    border-radius: 5px;
+    left: 90px;
+    margin-bottom: 30px;
+    bottom: 400px;
+    border: none;
+}
+
+.opo input[type="password"] {
+    position: relative;
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+    font-size: 17px;
+    font-family: 'Prompt', sans-serif;
+    background-color: gainsboro;
+    border-radius: 5px;
+    left: 90px;
+    margin-bottom: 30px;
+    bottom: 400px;
+    border: none;
+}
+
+.opo label {
+    position: relative;
+    font-size: 15px;
+    font-family: 'Prompt', sans-serif;
+    left: 90px;
+    bottom: 400px;
+    color: black;
+}
+
+.opo button {
+    position: relative;
+    width: 250px;
+    padding: 10px;
+    color: black;
+    background-color: grey;
+    border: none;
+    font-size: 20px;
+    font-family: 'Prompt', sans-serif;
+    left: 100px;
+    bottom: 400px;
+    margin-top: 20px;
+}
+
+.opo button:hover {
+    color: whitesmoke;
+    background-color: blue;
+}
+
+.opo h2 {
+    position: relative;
+    left: 140px;
+    font-family: 'Prompt', sans-serif;
+    bottom: 450px;
+    font-size: 50px;
+}
+
+.image1 {
+    width: 880px;
+    height: 665px;
+    position: relative;
+    left: 480px;
+    background-color: black;
+    bottom: 0px;
+}
+
+.image1 img{
+    position: relative;
+    bottom: 665px;
+    overflow: hidden;
+    width: 885px;
+    height: 665px;
+    filter: grayscale(1);
+    transition: .3s linear;
+}
+
+.image1 img:hover{
+    filter: grayscale(0);
+}
+
+.opo input[type="checkbox"]{
+    position: relative;
+    top: 142px;
+    left: 70px;
+}
+
+.y6{
+    background-color: #256D85;
+    opacity: 70%;
+    width: 400px;
+    left: 40px;
+    position: relative;
+    height: 550px;
+    top: 0px;
+    top: 50px;
+    border-radius: 20px;
+}
+
+#sws{
+    size: 40px;
+    color: black;
+}
+
+#sws:hover{
+    color: blue;
+}
